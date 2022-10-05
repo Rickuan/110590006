@@ -1,0 +1,222 @@
+<!-- Design your personal web page -->
+<!-- 1. Basic Tags. [10%] -->
+<!-- 2. Background: Set a background color. [10%] -->
+<!-- 3. Font: Different types of fonts and different font colors and sizes. [10%] -->
+<!-- 4. Headings: Two different headings. [10%] -->
+<!-- 5. Images: Images with link, image description (mouse cursor). [10%] -->
+<!-- 6. Links: Two links, link to section of page, link to other web page. [10%] -->
+<!-- 7. Email. [10%] -->
+<!-- 8. Lists. [10%] -->
+<!-- 9. Misc: at least TWO different horizontal dividing lines. [10%] -->
+<!-- 10. Div: use Div to organized your webpage into left and right division. [10%] -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <<title>
+    My page - Rick Yen
+  </title>
+
+  <meta charset="UTF-8">
+
+  <style>
+      /*  CSS  */
+  </style>
+</head>
+
+<body>
+    <!-- Don't forget to submit HTML file to your GitHub repository -->
+    <!-- Write your code here -->
+    <body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+
+  <div class="row" itemprop="author" itemscope itemtype="http://schema.org/Person" itemref="person-email">
+    <div class="col-12 col-lg-4">
+      <div id="profile">
+
+
+
+        <img class="portrait" src="/authors/admin/avatar_hu32caed0065c846fe869d7db23301e522_35339_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+
+
+        <div class="portrait-title">
+          <h2 itemprop="name">Nikoloz Sirmpilatze</h2>
+          <h3 itemprop="jobTitle">Research Software Engineer</h3>
+
+
+          <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <a href="https://www.sainsburywellcome.org/web/" target="_blank" itemprop="url" rel="noopener">
+            <span itemprop="name">Sainsbury Wellcome Centre</span>
+            </a>
+          </h3>
+
+          <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <a href="https://www.ucl.ac.uk/gatsby/" target="_blank" itemprop="url" rel="noopener">
+            <span itemprop="name">Gatsby Computational Neuroscience Unit</span>
+            </a>
+          </h3>
+
+          <h3 itemprop="worksFor" itemscope itemtype="http://schema.org/Organization">
+            <a href="https://www.ucl.ac.uk/" target="_blank" itemprop="url" rel="noopener">
+            <span itemprop="name">University College London (UCL)</span>
+            </a>
+          </h3>
+
+        </div>
+
+        <link itemprop="url" href="">
+
+        <ul class="network-icon" aria-hidden="true">
+
+
+
+
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/niksirbi" target="_blank" rel="noopener">
+              <i class="fab fa-twitter big-icon"></i>
+            </a>
+          </li>
+
+
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=vGwoc7oAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar big-icon"></i>
+            </a>
+          </li>
+
+
+
+          <li>
+            <a itemprop="sameAs" href="https://github.com/niksirbi" target="_blank" rel="noopener">
+              <i class="fab fa-github big-icon"></i>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+    <div class="col-12 col-lg-8" itemprop="description">
+
+
+      <h1>About me</h1>
+
+      <p>I&rsquo;m Niko, a medical doctor turned neuroscientist and image analyst. Since October 2022, I work as a Research Software Engineer at the <a href="https://www.sainsburywellcome.org/web/">Sainsbury Wellcome Centre</a> and <a href="https://www.ucl.ac.uk/gatsby/">Gatsby Computational Neuroscience Unit</a>.</p>
+  <p>I completed my PhD at the Functional Imaging Lab</a> of the <a href="https://www.dpz.eu">German Primate Center</a>, where I studied the effects of anesthesia on brain function using neuroimaging techniques, including functional Magnetic Resonance Imaging (fMRI) and in vivo 2‐photon calcium imaging.</p>
+  <p>I care about promoting open, collaborative, and reproducible science. In my free time, you will find me dancing to swing music and trying to play the saxophone.</p>
+
+
+      <div class="row">
+
+
+        <div class="col-md-5">
+          <h3>Interests</h3>
+          <ul class="ul-interests">
+
+            <li>Neuroscience</li>
+
+            <li>Neuroimaging</li>
+
+            <li>Anesthesia</li>
+
+            <li>Open science</li>
+
+            <li>Software</li>
+
+          </ul>
+        </div>
+
+
+
+        <div class="col-md-7">
+          <h3>Education</h3>
+          <ul class="ul-edu fa-ul">
+
+            <li>
+              <i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">PhD in Neuroimaging, May 2017 - Sep 2021</p>
+                <p class="institution">German Primate Center</p>
+              </div>
+            </li>
+
+            <li>
+              <i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">MSc in Neuroscience, Sep 2015 - Apr 2017</p>
+                <p class="institution">University of Göttingen</p>
+              </div>
+            </li>
+
+            <li>
+              <i class="fa-li fas fa-graduation-cap"></i>
+              <div class="description">
+                <p class="course">Medical Degree, Sep 2009 - Jul 2015</p>
+                <p class="institution">Aristotle University of Thessaloniki</p>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+  <div class="row featurette">
+
+    <div class="col-md-12 section-heading">
+      <h1>Skills</h1>
+
+    </div>
+
+
+
+    <div class="col-12 col-sm-4">
+      <div class="featurette-icon"><i class="fa fa-code"></i></div>
+      <h3>Programming</h3>
+      <p><strong>Python</strong>, Bash, R, git, LaTeX</p>
+    </div>
+
+
+
+
+    <div class="col-12 col-sm-4">
+      <div class="featurette-icon"><i class="fa fa-brain"></i></div>
+      <h3>Neuroimaging software</h3>
+      <p><strong>FSL</strong>, <strong>ANTS</strong>, AFNI, BrainVoyager, Freesurfer, Connectome Workbench</p>
+    </div>
+
+
+
+
+    <div class="col-12 col-sm-4">
+      <div class="featurette-icon"><i class="fa fa-language"></i></div>
+      <h3>Languages</h3>
+      <p><strong>Greek</strong>, <strong>Georgian</strong>, <strong>English</strong>, German, Russian</p>
+    </div>
+
+  </div>
+
+
+  <div id="modal" class="modal fade" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+
+        <div class="modal-body">
+          <pre><code class="tex hljs"></code></pre>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  </body>
+
+</body>
+
+</html>
