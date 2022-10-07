@@ -80,10 +80,18 @@
         <div>
             <nav>
                 <ul>
-                    <li style='width:25%'><center><a href="#top">0</a></center></li>
-                    <li style='width:25%'><center><a href="#Education">1</a></center></li>
-                    <li style='width:25%'><center><a href="#Clubs">2</a></center></li>
-                    <li style='width:25%'><center><a href="#Intro">3</a></center></li>
+                    <li style='width:25%'>
+                        <center><a href="#top">0</a></center>
+                    </li>
+                    <li style='width:25%'>
+                        <center><a href="#Education">Education</a></center>
+                    </li>
+                    <li style='width:25%'>
+                        <center><a href="#Clubs">Clubs</a></center>
+                    </li>
+                    <li style='width:25%'>
+                        <center><a href="#Intro">Introduction</a></center>
+                    </li>
                 </ul>
             </nav>
 
